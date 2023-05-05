@@ -1,5 +1,5 @@
 # NLP-Classifier-Twitter-Sentiment-re-Apple-and-Google-Products (Phase 4 Project Submission)
-This model is a multiclass classifer that analyzes tweets from twitter for positive, negative, or neutral sentiments about Apple and Google products
+This model is a multiclass classifer that analyzes tweets from Twitter for positive, negative, or neutral sentiments about Apple and Google products
 
 ## Overview and Business Understanding/Questions
 
