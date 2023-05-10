@@ -28,11 +28,11 @@ All features in the dataset were used. These were:
 
 I created the following visualizations from this data (among many others):
 
-![Percentage of Emotion Classes (Bar Chart)]!(https://github.com/clarkkon/NLP-Classifier-Twitter-Sentiment-re-Apple-and-Google-Products/assets/98120389/a662063c-85f8-4d15-9726-f964f515abaa)
+![Percentage of Emotion Classes (Bar Chart)](https://github.com/clarkkon/NLP-Classifier-Twitter-Sentiment-re-Apple-and-Google-Products/assets/98120389/a662063c-85f8-4d15-9726-f964f515abaa)
 
-![Top 10 Words by Emotion Category (Baseline)]!(https://github.com/clarkkon/NLP-Classifier-Twitter-Sentiment-re-Apple-and-Google-Products/assets/98120389/fec1e499-91b0-467d-b848-833921290feb)
+![Top 10 Words by Emotion Category (Baseline)](https://github.com/clarkkon/NLP-Classifier-Twitter-Sentiment-re-Apple-and-Google-Products/assets/98120389/fec1e499-91b0-467d-b848-833921290feb)
 
-![Top 10 Words by Emotion Category (Revmoved Stopwords and Overlapping Words)]!(https://github.com/clarkkon/NLP-Classifier-Twitter-Sentiment-re-Apple-and-Google-Products/assets/98120389/8e3590df-00af-456a-b969-620c9048a652)
+![Top 10 Words by Emotion Category (Revmoved Stopwords and Overlapping Words)](https://github.com/clarkkon/NLP-Classifier-Twitter-Sentiment-re-Apple-and-Google-Products/assets/98120389/8e3590df-00af-456a-b969-620c9048a652)
 
 
 I ran a baseline model with the following cv score:
@@ -59,7 +59,7 @@ Final mean CV score: 0.66
 
 Below is my Confusion Matrix for this model:
 
-![Final NP Model Confusion Matrix]!(https://github.com/clarkkon/NLP-Classifier-Twitter-Sentiment-re-Apple-and-Google-Products/assets/98120389/99ce159b-aed5-4165-a02a-800856bfc588)
+![Final NP Model Confusion Matrix](https://github.com/clarkkon/NLP-Classifier-Twitter-Sentiment-re-Apple-and-Google-Products/assets/98120389/99ce159b-aed5-4165-a02a-800856bfc588)
 
 
 I wanted to check if a LinearSVC model would be better, so I ran one and it resulted in the following metrics:
