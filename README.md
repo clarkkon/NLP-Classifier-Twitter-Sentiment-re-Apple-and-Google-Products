@@ -61,7 +61,6 @@ Below is my Confusion Matrix for this model:
 
 ![Final NP Model Confusion Matrix](https://github.com/clarkkon/NLP-Classifier-Twitter-Sentiment-re-Apple-and-Google-Products/assets/98120389/99ce159b-aed5-4165-a02a-800856bfc588)
 
-
 I wanted to check if a LinearSVC model would be better, so I ran one and it resulted in the following metrics:
 
 Precision: 0.55
@@ -74,6 +73,10 @@ Below is the confusion matrix for this model.
 
 ![Final SVC Model Confusion Matrix](https://github.com/clarkkon/NLP-Classifier-Twitter-Sentiment-re-Apple-and-Google-Products/assets/98120389/c07697b6-46f8-4a4e-a284-682ed87b2fcc)
 
+Below is the consolidated confusion matrix.
+
+![Final SVC Model Confustion Matrix (Binary)](https://github.com/clarkkon/NLP-Classifier-Twitter-Sentiment-re-Apple-and-Google-Products/assets/98120389/cdcd1e74-0f86-4a9e-8bcf-73ac10e46bad)
+
 
 So this model has decreased precision and a slight descrease in the CV score, but increased recall and F1 score.
 
@@ -85,7 +88,7 @@ The F1 score, which balances both precision and recall, is also better in the Li
 
 Finally, the MultinomialNB model has slightly better performance with a higher accuracy and mean CV score, but the difference is not very significant.
 
-This SVC model is overal better at true positives than the NB model, so I will stick with this model as my final one.
+This SVC model is overal better at true positivee, true negatives, and false negatives than the NB model, so I will stick with this model as my final one.
 
 ## Conclusion and Recommendation
 
