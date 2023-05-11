@@ -88,7 +88,7 @@ The F1 score, which balances both precision and recall, is also better in the Li
 
 Finally, the MultinomialNB model has slightly better performance with a higher accuracy and mean CV score, but the difference is not very significant.
 
-This SVC model is overal better at true positivee, true negatives, and false negatives than the NB model, so I will stick with this model as my final one.
+This SVC model is overall better at true positivee, true negatives, and false negatives than the NB model, so I will stick with this model as my final one.
 
 ## Conclusion and Recommendation
 
