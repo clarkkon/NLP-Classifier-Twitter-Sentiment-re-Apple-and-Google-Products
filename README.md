@@ -113,8 +113,8 @@ Once this overlap is reduced, the additional data is included, and the current d
 
 ## Navigating the repository:
 
-Data can be found in tweets.csv file
+* Data can be found in tweets.csv file
 
-index.ipynb contains the coding and markup
+* index.ipynb contains the coding and markup
 
-presentation.pdf is PowerPoint presentation of my information for my stakeholder, the link for which presentation can be found [here](https://docs.google.com/presentation/d/1O-wmPj14JY2rFTeYNPucZioYJvWenVcMg-Qk4P-9Wh0/edit?usp=sharing).
+* presentation.pdf is PowerPoint presentation of my information for my stakeholder, the link for which presentation can be found [here](https://docs.google.com/presentation/d/15KsIdJu3rUmOUEKDzB5KJ9al8OXQuNwXh6s1NRW_AaA/edit?usp=sharing).
