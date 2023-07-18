@@ -32,7 +32,7 @@ I created the following visualizations from this data (among many others, see in
 
 ![Top 10 Words by Emotion Category (Baseline)](https://github.com/clarkkon/NLP-Classifier-Twitter-Sentiment-re-Apple-and-Google-Products/assets/98120389/fec1e499-91b0-467d-b848-833921290feb)
 
-![Top 10 Words by Emotion Category (Revmoved Stopwords and Overlapping Words)](https://github.com/clarkkon/NLP-Classifier-Twitter-Sentiment-re-Apple-and-Google-Products/assets/98120389/8e3590df-00af-456a-b969-620c9048a652)
+![Top 10 Words by Emotion Category (Removed Stopwords and Overlapping Words)](https://github.com/clarkkon/NLP-Classifier-Twitter-Sentiment-re-Apple-and-Google-Products/assets/98120389/8e3590df-00af-456a-b969-620c9048a652)
 
 
 I ran a baseline model with the following cv score:
