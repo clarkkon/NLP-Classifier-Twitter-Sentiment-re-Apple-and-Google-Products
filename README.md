@@ -14,7 +14,7 @@ What kind of terms and hashtags are more likely to surround or embody positive o
 ## Data Source and Exploration
 
 This data comes from the Brands and Product Emotion dataset at the following site: https://data.world/crowdflower/brands-and-product-emotions. Click the link and click download to download the csv file, labeled judge-1377884607_tweet_product_company.csv.  You will need to create an account to do so.  There were some file formatting issues upon downloading that I encountered and I resolved through Excel. These file formatting issues prevented my ability to even preview the data in Jupyter Notebook, and will likely need to be addressed if downloaded from the original source at data.world.  I have included my restored version in the respository under tweets.csv.  For reproducibility, if downloading from data.world, the csv file needs to be renamed tweets.csv, or the line of code df = pd.read_csv('tweets.csv') in cell 
-2 of the notebook needs to be changed to df = pd.read_csv('judge-1377884607_tweet_product_company.csv').
+two of the notebook needs to be changed to df = pd.read_csv('judge-1377884607_tweet_product_company.csv').
 
 There was some sort of error in the downloaded file that prevented accurate formatting. I used Excel as an intermediary to import, edit, and then export the csv file again to fix the formatting issue.  This edited file can be found in the repository under tweets.csv.
 
