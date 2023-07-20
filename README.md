@@ -7,6 +7,8 @@ My stakeholder is Google, who wishes to classify Twitter sentiment about both th
 
 These sentiments offer informal reviews of Google and Apple products, which can better help Google with future product development by gauging the failures and success of their own products and a major competitor's products.
 
+Business questions:
+
 How can we categorize tweets as positive or negative?
 
 What kind of terms and hashtags are more likely to surround or embody positive or negative sentiment?
