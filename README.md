@@ -114,7 +114,7 @@ Once this overlap is reduced, the additional data is included, and the current d
 
 ## Navigating the repository:
 
-* Data can be found in tweets.csv file
+* Data for this project can be found in tweets.csv file
 
 * index.ipynb contains the coding and markup
 
