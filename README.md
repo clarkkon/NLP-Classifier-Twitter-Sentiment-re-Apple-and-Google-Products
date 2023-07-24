@@ -28,7 +28,7 @@ All features in the dataset were used. These were:
 * is_there_an_emotion_directed_at_a_brand_or_product
 
 
-I created the following visualizations from this data (among many others, see index for all visualizations):
+I created the following visualizations from this data (among many others, see notebook labeled index.ipynb for all visualizations):
 
 ![Percentage of Emotion Classes in Dataset](https://github.com/clarkkon/NLP-Classifier-Twitter-Sentiment-re-Apple-and-Google-Products/assets/98120389/a3a2c8ca-ec80-42d8-844e-18d45b553567)
 
