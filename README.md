@@ -7,13 +7,15 @@ My stakeholder is Google, who wishes to classify Twitter sentiment about both th
 
 These sentiments offer informal reviews of Google and Apple products, which can better help Google with future product development by gauging the failures and success of their own products and a major competitor's products.
 
+Business questions:
+
 How can we categorize tweets as positive or negative?
 
 What kind of terms and hashtags are more likely to surround or embody positive or negative sentiment?
 
 ## Data Source and Exploration
 
-This data comes from the Brands and Product Emotion dataset at the following site: https://data.world/crowdflower/brands-and-product-emotions
+This data comes from the Brands and Product Emotion dataset at the following site: https://data.world/crowdflower/brands-and-product-emotions. Click the link and click download to download the csv file, labeled judge-1377884607_tweet_product_company.csv.  You will need to create an account to do so.  There were some file formatting issues upon downloading that I encountered and I resolved through Excel. These file formatting issues prevented my ability to even preview the data in Jupyter Notebook, and will likely need to be addressed if downloaded from the original source at data.world.  I have included my restored version in the respository under tweets.csv.  For reproducibility, if downloading from data.world, the csv file needs to be renamed tweets.csv, or the line of code df = pd.read_csv('tweets.csv') in cell two of the notebook needs to be changed to df = pd.read_csv('judge-1377884607_tweet_product_company.csv').
 
 There was some sort of error in the downloaded file that prevented accurate formatting. I used Excel as an intermediary to import, edit, and then export the csv file again to fix the formatting issue.  This edited file can be found in the repository under tweets.csv.
 
@@ -32,7 +34,7 @@ I created the following visualizations from this data (among many others, see in
 
 ![Top 10 Words by Emotion Category (Baseline)](https://github.com/clarkkon/NLP-Classifier-Twitter-Sentiment-re-Apple-and-Google-Products/assets/98120389/fec1e499-91b0-467d-b848-833921290feb)
 
-![Top 10 Words by Emotion Category (Revmoved Stopwords and Overlapping Words)](https://github.com/clarkkon/NLP-Classifier-Twitter-Sentiment-re-Apple-and-Google-Products/assets/98120389/8e3590df-00af-456a-b969-620c9048a652)
+![Top 10 Words by Emotion Category (Removed Stopwords and Overlapping Words)](https://github.com/clarkkon/NLP-Classifier-Twitter-Sentiment-re-Apple-and-Google-Products/assets/98120389/8e3590df-00af-456a-b969-620c9048a652)
 
 
 I ran a baseline model with the following cv score:
@@ -77,7 +79,6 @@ Below is the consolidated confusion matrix.
 
 ![Final SVC Model Confustion Matrix (Binary)](https://github.com/clarkkon/NLP-Classifier-Twitter-Sentiment-re-Apple-and-Google-Products/assets/98120389/cdcd1e74-0f86-4a9e-8bcf-73ac10e46bad)
 
-
 So this model has decreased precision and a slight descrease in the CV score, but increased recall and F1 score.
 
 If Google wants to prioritize precision, the final MultinomialNB model with precision of 0.75 is better, which means it correctly identifies more true positives and has fewer false positives.
@@ -102,7 +103,7 @@ Beyond this dataset, a higher sample of positive and negative tweets could help 
 
 As for the analysis of the data itself, I have presented two methods of narrowing down the most popular terminology in the positve and negative tweets. Investigating certain high frequency terms in the positive category, such as the terms "ipad2" and "line," may help Google track the positive zeitgeist surrounding the release of a product, which in turn may inform further product development. In this case, queues to purchase the iPad2 resulted in positive Twitter discourse on the release of the product.
 
-Investigating certain high frequency terms in the negative category could prove similarly fruitful, if the labels of postiive and negative are accurate. Unfortunately, investigating the stems "design" and "headach" demonstrated the inaccuracies of the baseline dataset. Therefore, any further models on this dataset should cease until the accuracy of the is_there_an_emotion_directed_at_a_brand_or_product feature is verified.
+Investigating certain high frequency terms in the negative category could prove similarly fruitful, if the labels of postiive and negative are accurate. Unfortunately, investigating the stems "design" and "headach" demonstrated the inaccuracies of the baseline dataset labels. Therefore, any further models on this dataset should cease until the accuracy of the is_there_an_emotion_directed_at_a_brand_or_product feature is verified.
 
 In summary:
 
@@ -113,8 +114,8 @@ Once this overlap is reduced, the additional data is included, and the current d
 
 ## Navigating the repository:
 
-Data can be found in tweets.csv file
+* Data for this project can be found in tweets.csv file
 
-index.ipynb contains the coding and markup
+* index.ipynb contains the coding and markup
 
-presentation.pdf is PowerPoint presentation of my information for my stakeholder, the link for which presentation can be found [here](https://docs.google.com/presentation/d/1O-wmPj14JY2rFTeYNPucZioYJvWenVcMg-Qk4P-9Wh0/edit?usp=sharing).
+* presentation.pdf is PowerPoint presentation of my information for my stakeholder, the link for which presentation can be found [here](https://docs.google.com/presentation/d/15KsIdJu3rUmOUEKDzB5KJ9al8OXQuNwXh6s1NRW_AaA/edit?usp=sharing).
