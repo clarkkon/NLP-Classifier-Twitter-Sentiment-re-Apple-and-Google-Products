@@ -30,7 +30,7 @@ All features in the dataset were used. These were:
 
 I created the following visualizations from this data (among many others, see notebook labeled index.ipynb for all visualizations):
 
-![Percentage of Emotion Classes in Dataset](https://github.com/clarkkon/NLP-Classifier-Twitter-Sentiment-re-Apple-and-Google-Products/assets/98120389/a3a2c8ca-ec80-42d8-844e-18d45b553567)
+![Percentage of Emotion Classes](https://github.com/clarkkon/NLP-Classifier-Twitter-Sentiment-re-Apple-and-Google-Products/assets/98120389/0f227e6a-d72c-439a-911f-4c29c21caa6f)
 
 ![Percentage of Emotion Classes in Dataset](https://github.com/clarkkon/NLP-Classifier-Twitter-Sentiment-re-Apple-and-Google-Products/assets/98120389/1b480300-b389-4432-a3cb-5c54c87ed082)
 
