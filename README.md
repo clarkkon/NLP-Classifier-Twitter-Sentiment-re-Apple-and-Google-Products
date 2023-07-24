@@ -32,6 +32,8 @@ I created the following visualizations from this data (among many others, see no
 
 ![Percentage of Emotion Classes in Dataset](https://github.com/clarkkon/NLP-Classifier-Twitter-Sentiment-re-Apple-and-Google-Products/assets/98120389/a3a2c8ca-ec80-42d8-844e-18d45b553567)
 
+![Percentage of Emotion Classes in Dataset](https://github.com/clarkkon/NLP-Classifier-Twitter-Sentiment-re-Apple-and-Google-Products/assets/98120389/1b480300-b389-4432-a3cb-5c54c87ed082)
+
 ![Top 10 Words by Emotion](https://github.com/clarkkon/NLP-Classifier-Twitter-Sentiment-re-Apple-and-Google-Products/assets/98120389/932d465f-b14e-49b3-8252-9db2825e5116)
 
 ![Top 5 Words by Emotion](https://github.com/clarkkon/NLP-Classifier-Twitter-Sentiment-re-Apple-and-Google-Products/assets/98120389/6a2d8c16-5573-470b-a46c-679d641b3aa3)
