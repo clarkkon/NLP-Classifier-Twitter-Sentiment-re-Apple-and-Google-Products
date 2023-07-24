@@ -28,13 +28,19 @@ All features in the dataset were used. These were:
 * is_there_an_emotion_directed_at_a_brand_or_product
 
 
-I created the following visualizations from this data (among many others, see index for all visualizations):
+I created the following visualizations from this data (among many others, see notebook labeled index.ipynb for all visualizations):
 
-![Percentage of Emotion Classes (Bar Chart)](https://github.com/clarkkon/NLP-Classifier-Twitter-Sentiment-re-Apple-and-Google-Products/assets/98120389/a662063c-85f8-4d15-9726-f964f515abaa)
+![Percentage of Emotion Classes in Dataset](https://github.com/clarkkon/NLP-Classifier-Twitter-Sentiment-re-Apple-and-Google-Products/assets/98120389/a3a2c8ca-ec80-42d8-844e-18d45b553567)
 
-![Top 10 Words by Emotion Category (Baseline)](https://github.com/clarkkon/NLP-Classifier-Twitter-Sentiment-re-Apple-and-Google-Products/assets/98120389/fec1e499-91b0-467d-b848-833921290feb)
+![Percentage of Emotion Classes in Dataset](https://github.com/clarkkon/NLP-Classifier-Twitter-Sentiment-re-Apple-and-Google-Products/assets/98120389/1b480300-b389-4432-a3cb-5c54c87ed082)
 
-![Top 10 Words by Emotion Category (Removed Stopwords and Overlapping Words)](https://github.com/clarkkon/NLP-Classifier-Twitter-Sentiment-re-Apple-and-Google-Products/assets/98120389/8e3590df-00af-456a-b969-620c9048a652)
+![Top 10 Words by Emotion](https://github.com/clarkkon/NLP-Classifier-Twitter-Sentiment-re-Apple-and-Google-Products/assets/98120389/932d465f-b14e-49b3-8252-9db2825e5116)
+
+![Top 5 Words by Emotion](https://github.com/clarkkon/NLP-Classifier-Twitter-Sentiment-re-Apple-and-Google-Products/assets/98120389/6a2d8c16-5573-470b-a46c-679d641b3aa3)
+
+![Top 5 Words in iPad2 Tweets (Stemmed)](https://github.com/clarkkon/NLP-Classifier-Twitter-Sentiment-re-Apple-and-Google-Products/assets/98120389/272fadc0-12f7-4f8e-9987-be615eaaa837)
+
+![Top 5 Words with Design in Negative iPad Tweets (Stemmed)](https://github.com/clarkkon/NLP-Classifier-Twitter-Sentiment-re-Apple-and-Google-Products/assets/98120389/4321d61e-72b9-4ddc-a2e7-2ba3463b1815)
 
 
 I ran a baseline model with the following cv score:
@@ -61,7 +67,7 @@ Final mean CV score: 0.66
 
 Below is my Confusion Matrix for this model:
 
-![Final NP Model Confusion Matrix](https://github.com/clarkkon/NLP-Classifier-Twitter-Sentiment-re-Apple-and-Google-Products/assets/98120389/99ce159b-aed5-4165-a02a-800856bfc588)
+![Confusion Matrix for Final NB Model](https://github.com/clarkkon/NLP-Classifier-Twitter-Sentiment-re-Apple-and-Google-Products/assets/98120389/2ae2b397-8088-470f-8a72-5d874a2d9aba)
 
 I wanted to check if a LinearSVC model would be better, so I ran one and it resulted in the following metrics:
 
@@ -73,11 +79,11 @@ Final mean CV score: 0.65
 
 Below is the confusion matrix for this model.
 
-![Final SVC Model Confusion Matrix](https://github.com/clarkkon/NLP-Classifier-Twitter-Sentiment-re-Apple-and-Google-Products/assets/98120389/c07697b6-46f8-4a4e-a284-682ed87b2fcc)
+![Confusion Matrix for Final SVC Model](https://github.com/clarkkon/NLP-Classifier-Twitter-Sentiment-re-Apple-and-Google-Products/assets/98120389/0c0ba89d-2ff6-40ff-b420-1bee1c593ac2)
 
 Below is the consolidated confusion matrix.
 
-![Final SVC Model Confustion Matrix (Binary)](https://github.com/clarkkon/NLP-Classifier-Twitter-Sentiment-re-Apple-and-Google-Products/assets/98120389/cdcd1e74-0f86-4a9e-8bcf-73ac10e46bad)
+![Confusion Matrix for Final SVC Model (Positive vs Negative or No Emotion)](https://github.com/clarkkon/NLP-Classifier-Twitter-Sentiment-re-Apple-and-Google-Products/assets/98120389/746b3425-7bf6-4908-8603-a3dce791d2ae)
 
 So this model has decreased precision and a slight descrease in the CV score, but increased recall and F1 score.
 
@@ -115,6 +121,8 @@ Once this overlap is reduced, the additional data is included, and the current d
 ## Navigating the repository:
 
 * Data for this project can be found in tweets.csv file
+
+* Images for this README can be found in the images folder. 
 
 * index.ipynb contains the coding and markup
 
