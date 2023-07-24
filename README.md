@@ -120,6 +120,8 @@ Once this overlap is reduced, the additional data is included, and the current d
 
 * Data for this project can be found in tweets.csv file
 
+* Images for this README can be found in the images folder. 
+
 * index.ipynb contains the coding and markup
 
 * presentation.pdf is PowerPoint presentation of my information for my stakeholder, the link for which presentation can be found [here](https://docs.google.com/presentation/d/15KsIdJu3rUmOUEKDzB5KJ9al8OXQuNwXh6s1NRW_AaA/edit?usp=sharing).
