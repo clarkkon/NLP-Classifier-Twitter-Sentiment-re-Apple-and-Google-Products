@@ -32,8 +32,10 @@ I created the following visualizations from this data (among many others, see no
 
 ![Percentage of Emotion Classes](https://github.com/clarkkon/NLP-Classifier-Twitter-Sentiment-re-Apple-and-Google-Products/assets/98120389/0f227e6a-d72c-439a-911f-4c29c21caa6f)
 
+Below is a graph of the top 10 words by emotion after removing stopwords.
 ![Top 10 Words by Emotion](https://github.com/clarkkon/NLP-Classifier-Twitter-Sentiment-re-Apple-and-Google-Products/assets/98120389/932d465f-b14e-49b3-8252-9db2825e5116)
 
+Below is a graph of the top 5 words by emotion after removing stopwords and stemming the terms.
 ![Top 5 Words by Emotion](https://github.com/clarkkon/NLP-Classifier-Twitter-Sentiment-re-Apple-and-Google-Products/assets/98120389/6a2d8c16-5573-470b-a46c-679d641b3aa3)
 
 ![Top 5 Words in iPad2 Tweets (Stemmed)](https://github.com/clarkkon/NLP-Classifier-Twitter-Sentiment-re-Apple-and-Google-Products/assets/98120389/272fadc0-12f7-4f8e-9987-be615eaaa837)
